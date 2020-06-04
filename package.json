@@ -1,0 +1,20 @@
+{
+  "name": "dj-truck-share-point",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js",
+    "start:dev" : "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "epxress": "0.0.1-security",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
