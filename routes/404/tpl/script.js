@@ -1,0 +1,1 @@
+redirect(window.djTruckMain)

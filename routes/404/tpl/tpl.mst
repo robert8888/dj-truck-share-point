@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  {{#css}}
+    <style>
+        {{{.}}}
+    </style>
+  {{/css}}
+</head>
+<body>
+  <main>
+    <h1 className="title">404<h1>
+    <h3>Page not found</h3>
+    <h6>For <span id="counter"> 5 </span> second you will be redicrect to home page</h6>
+  </main>
+
+  {{#js}}
+    <script>
+        {{{.}}}
+    </script>
+  {{/js}}
+</body>
+</html>

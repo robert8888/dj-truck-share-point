@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta property="og:title" content="{{recordTitle}}">
+  <meta property="og:description" content="{{recordDescription}}">
+  <meta property="og:image" content="{{imageUrl}}">
+  <meta property="og:url" content="{{pageUrl}}">
+  <meta property="og:type" content="video.movie">
+  <meta property="og:video" content="{{recordUrl}}">
+  <meta property="og:video:secure_url" content="{{recordUrl}}">
+  <meta property="og:video:type" content="video/mp4">
+  <meta property="og:video:width" content="480">
+  <meta property="og:video:height" content="50">
+  <meta property="fb:app_id" content="fbAppId">
+  <meta property="fb:admins" content="{{fbAdminId}}">
+
+  <title></title>
+
+  {{#css}}
+  <style>
+      {{{.}}}
+  </style>
+  {{/css}}
+  <!-- <link href="style.css" rel="stylesheet" /> -->
+</head>
+<body>
+
+  <main>
+    <div id="container">
+        <div id="halfclip">
+            <div class="halfcircle" id="clipped">
+            </div>
+        </div>
+        <div class="halfcircle" id="fixed">
+        </div>
+        <span id="counter"> 5 </span> 
+    </div>
+
+    <a class="link-redirect" herf="{{pageUrl}}">Go to record page</a>
+  </main>
+
+  {{#js}}
+  <script>
+      {{{.}}}
+  </script>
+  {{/js}}
+</body>
+</html>
