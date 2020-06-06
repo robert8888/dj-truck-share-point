@@ -7,7 +7,7 @@ module.exports = {
         __dirname + "/script.js",
     ],
     css: [
-        __dirname + "./../../common/style/default.css",
+        __dirname + "/../../common/style/default.css",
         __dirname + "/404.css",
     ]
 }
