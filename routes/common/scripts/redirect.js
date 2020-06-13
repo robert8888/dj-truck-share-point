@@ -16,6 +16,9 @@ function redirect(location){
     }, 1000)
 
     function go(){
+        if(window.env && window.env === "development")
+            return;
+            
         window.location = location;
     }
 
