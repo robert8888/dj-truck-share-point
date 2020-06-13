@@ -5,7 +5,7 @@
   <meta property="og:title" content="{{recordTitle}}">
   <meta property="og:description" content="{{recordDescription}}">
   <meta property="og:image" content="{{imageUrl}}">
-  <meta property="og:type" content="video.movie">
+  <meta property="og:type" content="video">
   <meta property="og:video" content="{{recordUrl}}">
   <meta property="og:video:secure_url" content="{{recordUrl}}">
   <meta property="og:video:type" content="video/mp4">
