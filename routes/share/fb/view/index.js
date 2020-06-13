@@ -11,7 +11,7 @@ module.exports = (data) => ({
     recordUrl: recordUrl + "/" + data.record.id,
     pageUrl : mainPage + `/record/${data.record.user.nickname}/${data.record.title.replace(/\s/g, "_")}/${data.record.id}`,
     imageUrl : data.record.user.picture,
-    recordDescription : data.record.description,
+    recordDescription : data.record.description || data.record.title || "dj truck",
     recordTitle : data.record.title,
     JS_GLOBAL_REDIRECT_URL: mainPage + `/record/${data.record.user.nickname}/${data.record.title.replace(/\s/g, "_")}/${data.record.id}`,
 })
