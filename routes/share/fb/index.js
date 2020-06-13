@@ -15,6 +15,7 @@ router.get("/fb/record/:id", async (req, res) => {
         if(!response || response.errors){
             res.redirect("/404");
         }
+        response.data.req = req;
         const output = await render({tpl, view: view(response.data) });
         res.header("Content-Type", "text/html; charset=UTF-8");
         res.send(output)

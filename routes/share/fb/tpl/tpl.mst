@@ -13,7 +13,7 @@
   <meta property="og:video:height" content="50">
   <meta property="fb:app_id" content="{{fbAppId}}">
   <meta property="fb:admins" content="{{fbAdminId}}">
-  <meta property="og:url" content="{{pageUrl}}">
+  <meta property="og:url" content="{{currentUrl}}">
 
   <title></title>
 
