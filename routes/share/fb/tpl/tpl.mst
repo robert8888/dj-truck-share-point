@@ -5,7 +5,7 @@
   <meta property="og:title" content="{{recordTitle}}">
   <meta property="og:description" content="{{recordDescription}}">
   <meta property="og:image" content="{{imageUrl}}">
-  <meta property="og:type" content="video">
+  <meta property="og:type" content="article">
   <meta property="og:video" content="{{recordUrl}}">
   <meta property="og:video:type" content="video/mp4">
   <meta property="og:video:width" content="480">
@@ -13,7 +13,7 @@
   <meta property="fb:app_id" content="{{fbAppId}}">
   <meta property="fb:admins" content="{{fbAdminId}}">
   <meta property="og:url" content="{{currentUrl}}">
-
+  <meta property="og:site_name" content={{siteName}}>
   <title></title>
 
   {{#css}}
