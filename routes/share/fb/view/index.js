@@ -8,7 +8,7 @@ const mainPage = process.env.MAIN_PAGE;
 module.exports = (data) => ({
     fbAdminId,
     fbAppId,
-    siteName: "Dj Truck",
+    siteName: `Dj Truck`,
     currentUrl: data.req.protocol + '://' + data.req.get('host') + data.req.originalUrl,
     recordUrl: recordUrl + "/" + data.record.id,
     pageUrl: mainPage + `/record/${data.record.user.nickname}/${data.record.title.replace(/\s/g, "_")}/${data.record.id}`,
