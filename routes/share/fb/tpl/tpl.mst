@@ -5,11 +5,11 @@
   <meta property="og:title" content="{{recordTitle}}">
   <meta property="og:description" content="{{recordDescription}}">
   <meta property="og:image" content="{{imageUrl}}">
-  <meta property="og:type" content="video.movie">
+  <meta property="og:type" content="movie">
   <meta property="og:video" content="{{recordUrl}}">
   <meta property="og:video:type" content="video/mp4">
   <meta property="og:video:width" content="480">
-  <meta property="og:video:height" content="50">
+  <meta property="og:video:height" content="360">
   <meta property="fb:app_id" content="{{fbAppId}}">
   <meta property="fb:admins" content="{{fbAdminId}}">
   <meta property="og:url" content="{{currentUrl}}">
